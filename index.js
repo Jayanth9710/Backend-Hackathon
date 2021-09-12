@@ -170,7 +170,7 @@ async function start() {
 
 
     const datas = [];
-    for (let i = 0; i < books.length; i++) {
+    for (let i = 0; i < Product.length; i++) {
         datas[i] = {
             ...Product[i],
             ...productPrice[i],
